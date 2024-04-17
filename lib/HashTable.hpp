@@ -69,7 +69,7 @@ void HashTable::remove(std::string key)
     Node* prev = NULL;
     while (node != NULL)
     {
-        if (node->key == key)   
+        if (node->key == key)
         {
             if (prev == NULL)
                 table[index] = node->next;
@@ -82,3 +82,4 @@ void HashTable::remove(std::string key)
         node = node->next;
     }
 }
+#pragma once#pragma once

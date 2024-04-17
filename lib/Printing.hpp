@@ -1,3 +1,4 @@
+@ - 1, 44 + 1 @@
 #include <iostream>
 
 void printHelpEmployee()
@@ -19,7 +20,7 @@ void MainMenu()
 	std::cout << ".Quit : to quit the program\n";
 }
 
- static void Version()
+static void Version()
 {
 	std::cout << "Welcome to MY HOTEL\t\t\tVersion 1.0.0\n";
 }
@@ -42,3 +43,4 @@ void Error()
 {
 	std::cout << "please select from the menu only :)\n";
 }
+#pragma once
