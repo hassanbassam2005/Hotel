@@ -1,4 +1,4 @@
-#include "hashing.cpp"
+#include "enums.cpp"
 #include "login.cpp"
 #include "register.cpp"
 #include "Printing.hpp"
